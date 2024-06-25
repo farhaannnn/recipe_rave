@@ -1,0 +1,105 @@
+
+.title{
+font-size: 35px;
+font-weight: bold;
+font-family: Montserrat;
+color: orange;
+margin-left: 30px;
+line-height: 80px;
+text-decoration: none;
+
+}
+nav a{
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    
+}
+/* hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+    color: orange;
+    width: 100%;
+  } */
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+    
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+    
+}
+a.active, a:hover
+{
+    border: 1px solid orange;
+    transition: 0.6s;
+    color: orange;
+    border-radius: 7px;
+    padding: 3px;
+    
+}
+.navtext{
+    color: orange;
+    font-weight: 600px;
+    font-family: Montserrat;
+    font-size: 18px;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+}
+
+.carousel slide{
+    height: 100px;
+}
+
+.checked {
+    color: grey;
+  }
+
+.rajan{
+    text-align: left;
+    margin-top: 1px;
+    font-style: italic;
+}
+
+.card{
+    margin-top: 16px;
+    border-radius: 4px;
+    margin-left: 35px;
+    background-color: orange !important;
+}
+.card:hover{
+    transform:scale(1.1);
+    transition: 0.6s;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.fa-user:hover{
+    cursor: pointer;
+}
+.cook{
+    color: white;
+    background-color: #222;
+    font-family: Poppins;
+    font-weight: bold;
+    margin-top: 5px;
+}
+ol{
+    list-style-type: circle;
+    color: black;
+}
+.modal-content {
+    background-color: #222 !important;
+  }
